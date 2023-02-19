@@ -6,7 +6,7 @@ package com.TorrentPharma.Obj;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.Utility.Browsers.AllBrowsers;
+import com.Torrent.Browsers.AllBrowsers;
 
 /**
  * @author Bhavin

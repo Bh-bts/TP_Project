@@ -1,4 +1,4 @@
-package com.Utility.Screenshots;
+package com.Torrent.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class ScreenshotCapture {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 
 		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-		File destFile = new File(screenshotName + ".png");
+		File destFile = new File("src/main/resources/captureScreenshot/" + screenshotName + ".png");
 		FileUtils.copyFile(sourceFile, destFile);
 
 	}

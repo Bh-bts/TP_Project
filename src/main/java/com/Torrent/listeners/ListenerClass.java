@@ -1,9 +1,9 @@
-package com.Utility.Listeners;
+package com.Torrent.listeners;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.Utility.Browsers.AllBrowsers;
+import com.Torrent.Browsers.AllBrowsers;
 
 public class ListenerClass  extends AllBrowsers implements ITestListener { 
 	

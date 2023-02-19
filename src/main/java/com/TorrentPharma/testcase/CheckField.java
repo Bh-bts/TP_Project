@@ -43,6 +43,7 @@ public class CheckField extends CheckField_Obj{
 			String header = headerTitle.getText();
 			System.out.println("User is navigate to " + ANSI_YELLOW + header + ANSI_RESET + " page." + '\n' );
 			
+			w.until(ExpectedConditions.invisibilityOf(loader));
 			w.until(ExpectedConditions.visibilityOf(filter_btn));
 			edit_btn.click();
 			

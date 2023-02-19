@@ -9,17 +9,18 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import com.Torrent.Browsers.AllBrowsers;
+import com.Torrent.utils.PropertiesClass;
+import com.Torrent.utils.ScreenshotCapture;
 import com.TorrentPharma.testcase.CheckField;
-import com.Utility.Browsers.AllBrowsers;
-import com.Utility.Properties.PropertiesClass;
-import com.Utility.Screenshots.ScreenshotCapture;
 
 /**
  * @author Bhavin
  *
  */
 
-@Listeners(com.Utility.Listeners.ListenerClass.class)
+@Listeners(com.Torrent.listeners.ListenerClass.class)
 
 public class CheckField_MainPage extends CheckField {
 

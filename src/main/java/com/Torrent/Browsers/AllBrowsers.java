@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.Utility.Browsers;
+package com.Torrent.Browsers;
 
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import com.Utility.Properties.PropertiesClass;
+
+import com.Torrent.utils.PropertiesClass;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**

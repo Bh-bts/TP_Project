@@ -5,7 +5,8 @@ package com.TorrentPharma.Obj;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import com.Utility.Browsers.AllBrowsers;
+
+import com.Torrent.Browsers.AllBrowsers;
 /**
  * @author Bhavin
  *
@@ -21,7 +22,7 @@ public class CheckField_Obj extends AllBrowsers{
 	public @FindBy(xpath = "//span[text()='Employee Management']/ancestor::button") WebElement empMan_btn;
 	
 	public @FindBy(xpath = "//label[@class='header-title']") WebElement headerTitle;
-	public @FindBy(xpath = "//span[@class='mat-expansion-indicator ng-tns-c146-73 ng-trigger ng-trigger-indicatorRotate ng-star-inserted']") WebElement filter_btn;
+	public @FindBy(xpath = "//mat-expansion-panel-header[@role='button']") WebElement filter_btn;
 	public @FindBy(xpath = "//mat-icon[text()='edit ']") WebElement edit_btn;
 	public @FindBy(xpath = "//mat-label[text()='Country']/ancestor::span/preceding-sibling::mat-select") WebElement Country_chckbx;
 	public @FindBy(xpath = "//mat-select[@name='name']/following-sibling::span/label/mat-label[text()='Country']") WebElement CountrySPAN;
@@ -31,6 +32,8 @@ public class CheckField_Obj extends AllBrowsers{
 	public @FindBy(xpath = "//span[text()=' Replace ']") WebElement ReplaceSPAN;
 	public @FindBy(xpath = "//mat-label[text()='Unique Position Code']/ancestor::div/input") WebElement Unique_fld;
 	public @FindBy(xpath = "//mat-label[text()='Unique Position Code']") WebElement UniqueSPAN;
+	
+	public @FindBy(xpath = "//div[@class='sk-ball-spin-clockwise-fade-rotating']") WebElement loader;
 	
 	
 	

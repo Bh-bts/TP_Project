@@ -1,4 +1,4 @@
-package com.Utility.Properties;
+package com.Torrent.utils;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class PropertiesClass {
 	public static Properties fileConfig() throws IOException {
 
 		String projectPath = System.getProperty("user.dir");
-		FileReader reader = new FileReader(projectPath + "/src/main/java/com/Utility/Properties/config.properties");
+		FileReader reader = new FileReader(projectPath + "/src/main/resources/config/config.properties");
 		Properties props = new Properties();
 		props.load(reader);
 		return a = props;
